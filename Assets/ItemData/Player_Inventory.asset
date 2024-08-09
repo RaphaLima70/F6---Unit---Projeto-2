@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8cf82ae91b3570f46a685b8d1f41f38f, type: 3}
+  m_Name: Player_Inventory
+  m_EditorClassIdentifier: 
+  coins: 339
+  itemList:
+  - item: {fileID: 11400000, guid: 825cf696cfd406543be08b5e2eb3b1ed, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: fc7f7748af9eaf347889709f4d58732a, type: 2}
+    amount: 3
+  - item: {fileID: 11400000, guid: 7b18026e367e189448cb5b97799b2a7d, type: 2}
+    amount: 10
+  - item: {fileID: 11400000, guid: 29192953c997a1a4ca488f086a299874, type: 2}
+    amount: 3

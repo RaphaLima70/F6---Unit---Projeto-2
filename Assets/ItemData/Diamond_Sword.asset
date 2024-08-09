@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec41fdf3cd1bea543b666bebe03b1059, type: 3}
+  m_Name: Diamond_Sword
+  m_EditorClassIdentifier: 
+  itemName: Espada de Diamante
+  description: Uma espada muito brilhosa e potente !
+  value: 200
+  type: 1
+  icon: {fileID: 6675746587967983626, guid: 411ea054d8e0f414b9d250b213a03093, type: 3}
+  attackBonus: 100
+  durability: 30
