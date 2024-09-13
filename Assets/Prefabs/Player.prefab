@@ -263,7 +263,7 @@ GameObject:
   - component: {fileID: 8919973648223677469}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -416,6 +416,8 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   speed: 3
+  isWeaponEquipped: 0
+  attack: 0
   OnDirectionChanged:
     m_PersistentCalls:
       m_Calls:
@@ -544,6 +546,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d4d07de8fa8b05439b64278a616c146, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
   inventory: {fileID: 11400000, guid: 19989478d94f12c47beba62a5390734d, type: 2}
   OnItemCollect:
     m_PersistentCalls:

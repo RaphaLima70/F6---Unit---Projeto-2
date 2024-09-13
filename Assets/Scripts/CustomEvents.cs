@@ -24,3 +24,6 @@ public class GameObjectEvent : UnityEvent<GameObject> { }
 
 [Serializable]
 public class InputEvent : UnityEvent<float, float> { }
+
+[Serializable]
+public class EquipEvent : UnityEvent<SO_Weapons> { }

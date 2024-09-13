@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Confiner
+  - Coin
+  - HUD
   layers:
   - Default
   - TransparentFX
